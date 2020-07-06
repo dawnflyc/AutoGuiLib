@@ -1,0 +1,50 @@
+
+modLoader="javafml"
+
+loaderVersion="[32,)"
+
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+
+modId="autoguilib"
+
+version="${file.jarVersion}"
+
+displayName="Auto Gui Lib"
+
+updateJSONURL="http://myurl.me/"
+
+displayURL=""
+
+logoFile="autoguilib.png"
+
+credits=""
+
+authors=""
+
+description='''
+'''
+
+[[dependencies.autoguilib]]
+
+    modId="forge"
+
+    mandatory=true
+
+    versionRange="[32,)"
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.autoguilib]]
+    modId="minecraft"
+
+    mandatory=true
+
+    versionRange="[1.16.1]"
+
+    ordering="NONE"
+
+    side="BOTH"
